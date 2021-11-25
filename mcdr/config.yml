@@ -1,1 +1,0 @@
-start_command: java -Xms2048M -Xmx6011M -jar fabric-server-launch.jar nogui

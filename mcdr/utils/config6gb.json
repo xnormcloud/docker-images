@@ -1,0 +1,17 @@
+{
+    "server/server.properties": {
+        "parser": "properties",
+        "find": {
+            "server-ip": "0.0.0.0",
+            "enable-query": "true",
+            "server-port": "{{server.build.default.port}}",
+            "query.port": "{{server.build.default.port}}"
+        }
+    },
+    "config.yml": {
+        "parser": "yaml",
+        "find": {
+            "start_command": "java -Xms2048M -Xmx6011M -jar fabric-server-launch.jar nogui"
+        }
+    }
+}
