@@ -3,11 +3,11 @@
 #Prints sh version
 echo Executing sh v0.2
 
-# Update python libraries
-pip3 install mcdreforged hjson docker --upgrade
-
 #Set directory
 cd /home/container
+
+# Update python libraries
+pip3 install mcdreforged hjson docker --upgrade
 
 # Init mcdr in container home directory
 python3 -m mcdreforged init
