@@ -4,7 +4,7 @@ LABEL       organization="xnormnet" maintainer="legendnightt" mail="alejandro.po
 
 RUN         apt-get update -y \
          && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 python3-dev python3-setuptools python3-pip wget \
-         && pip3 install mcdreforged hjson docker \
+         && pip3 install mcdreforged hjson docker requests googletrans==4.0.0rc1 \
          && useradd -d /home/container -m container
 
 USER        root
@@ -17,7 +17,7 @@ USER        container
 ENV         USER=container HOME=/home/container
 
 WORKDIR     /home
-RUN         echo sh v0.2 \
+RUN         echo sh v0.3 \
          && if [[ -e start.sh ]] ; then rm start.sh ; else wget https://raw.githubusercontent.com/xnormnet/docker-images/master/mcdr/start.sh ; fi
 
 CMD         ["/bin/bash", "/home/start.sh"]

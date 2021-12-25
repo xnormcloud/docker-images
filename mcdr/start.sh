@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #Prints sh version
-echo Executing sh v0.2
+echo Executing sh v0.3
 
 #Set directory
 cd /home/container
 
 # Update python libraries
-pip3 install mcdreforged hjson docker --upgrade
+pip3 install mcdreforged hjson docker requests googletrans==4.0.0rc1 --upgrade
 
 # Init mcdr in container home directory
 python3 -m mcdreforged init
