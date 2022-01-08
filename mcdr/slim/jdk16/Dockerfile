@@ -1,6 +1,6 @@
 FROM        openjdk:16-slim
 
-LABEL       author="legendnightt" vendor="xnormnet" version="1.0.0"
+LABEL       author="legendnightt" vendor="xnormnet" version="1.0.1"
 
 RUN         apt-get update -y \
          && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 python3-dev python3-setuptools python3-pip wget \

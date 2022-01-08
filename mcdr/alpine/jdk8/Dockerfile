@@ -1,6 +1,6 @@
 FROM        openjdk:8-jdk-alpine
 
-LABEL       author="legendnightt" vendor="xnormnet" version="1.0.0"
+LABEL       author="legendnightt" vendor="xnormnet" version="1.0.1"
 
 RUN         apk update \
          && apk upgrade --available && sync \
