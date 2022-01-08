@@ -17,7 +17,7 @@ USER        container
 ENV         USER=container HOME=/home/container
 
 WORKDIR     /home
-RUN         echo sh v0.3 \
+RUN         echo sh v1.0.0 \
          && if [[ -e start.sh ]] ; then rm start.sh ; else wget https://raw.githubusercontent.com/xnormnet/docker-images/master/mcdr/start.sh ; fi
 
 CMD         ["/bin/bash", "/home/start.sh"]
