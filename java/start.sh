@@ -1,7 +1,12 @@
 #!/bin/bash
 
-#Prints sh version
-echo Executing sh v0.0.1
+#Prints sh info stuff
+echo Executing xnorm-java-sh
+echo Author: legendnightt
+echo Vendor: xnormnet
+echo Version: 0.0.1
+echo Website: https://xnorm.cloud
+echo Repository: https://github.com/xnormnet/docker-images
 
 #Set directory
 cd /home/container

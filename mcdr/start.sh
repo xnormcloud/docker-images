@@ -1,7 +1,12 @@
 #!/bin/bash
 
-#Prints sh version
-echo Executing sh v1.0.2
+#Prints sh info stuff
+echo Executing xnorm-mcdr-sh
+echo Author: legendnightt
+echo Vendor: xnormnet
+echo Version: 1.0.2
+echo Website: https://xnorm.cloud
+echo Repository: https://github.com/xnormnet/docker-images
 
 #Set directory
 cd /home/container
