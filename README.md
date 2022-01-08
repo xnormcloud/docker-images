@@ -4,6 +4,18 @@ Docker images for [xnormcloud](https://xnorm.cloud) services.
 docker pull image-url
 ```
 
+## Java
+
+### - Slim
+- [JDK 17](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk17) \
+`ghcr.io/xnormnet/docker-images:java_slim_jdk17`
+- [JDK 16](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk16) \
+`ghcr.io/xnormnet/docker-images:java_slim_jdk16`
+- [JDK 11](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk11) \
+`ghcr.io/xnormnet/docker-images:java_slim_jdk11`
+- [JDK 8](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk8) \
+`ghcr.io/xnormnet/docker-images:java_slim_jdk8`
+
 ## MCDR
 
 ### - Slim
