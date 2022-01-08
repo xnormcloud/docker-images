@@ -3,7 +3,7 @@ FROM        openjdk:8-slim
 LABEL       author="legendnightt" vendor="xnormnet" version="0.0.1"
 
 RUN         apt-get update -y \
-         && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 \
+         && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 wget \
          && useradd -d /home/container -m container
 
 USER        root
