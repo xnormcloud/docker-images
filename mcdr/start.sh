@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Prints sh version
-echo Executing sh v1.0.1
+echo Executing sh v1.0.2
 
 #Set directory
 cd /home/container
