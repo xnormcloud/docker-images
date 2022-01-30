@@ -12,7 +12,7 @@ echo Repository: https://github.com/xnormnet/docker-images
 cd /home/container
 
 # Update python libraries
-pip3 install mcdreforged hjson docker requests googletrans==4.0.0rc1 --upgrade
+pip3 install mcdreforged hjson docker requests pycryptodome colorlog googletrans==4.0.0rc1 --upgrade
 
 # Init mcdr in container home directory
 python3 -m mcdreforged init

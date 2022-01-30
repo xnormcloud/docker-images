@@ -6,7 +6,7 @@ RUN         apk update \
          && apk upgrade --available && sync \
          && apk add --no-cache --upgrade curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute2 gcc musl-dev linux-headers python3-dev py3-setuptools py3-pip bash wget \
          && update-ca-certificates \
-         && pip3 install mcdreforged hjson docker requests googletrans==4.0.0rc1 \
+         && pip3 install mcdreforged hjson docker requests pycryptodome colorlog googletrans==4.0.0rc1 \
          && adduser -D -h /home/container 'container' wheel
 
 USER        root
