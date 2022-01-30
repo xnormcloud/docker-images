@@ -12,7 +12,7 @@ echo Repository: https://github.com/xnormnet/docker-images
 cd /home/container
 
 # Update python libraries
-pip3 install pycryptodome colorlog --upgrade
+pip3 install mcdreforged pycryptodome colorlog --upgrade
 
 # Print current Python3, Pip3 Version
 python3 --version
