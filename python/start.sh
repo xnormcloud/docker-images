@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Prints sh info stuff
-echo Executing xnorm-chatbridge-sh
+echo Executing xnorm-python-sh
 echo Author: legendnightt
 echo Vendor: xnormnet
 echo Version: 0.0.1
@@ -11,8 +11,8 @@ echo Repository: https://github.com/xnormnet/docker-images
 #Set directory
 cd /home/container
 
-# Update python libraries
-pip3 install mcdreforged pycryptodome colorlog --upgrade
+# Install or Update python libraries
+pip3 install -r requirements.txt --upgrade
 
 # Print current Python3, Pip3 Version
 python3 --version
