@@ -1,4 +1,4 @@
-name: build chatbridge_slim
+name: build python_slim
 
 on:
   workflow_dispatch:
