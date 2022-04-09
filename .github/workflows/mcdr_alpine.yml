@@ -8,6 +8,7 @@ on:
     branches:
       - master
     paths:
+      - .github/workflows/mcdr_alpine.yml
       - mcdr/alpine/**
       
 jobs:

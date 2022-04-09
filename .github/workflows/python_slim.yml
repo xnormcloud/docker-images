@@ -8,6 +8,7 @@ on:
     branches:
       - master
     paths:
+      - .github/workflows/python_slim.yml
       - python/slim/**
       
 jobs:
