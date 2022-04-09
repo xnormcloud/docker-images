@@ -4,7 +4,6 @@ LABEL       author="legendnightt" vendor="xnormnet" version="1.0.3"
 
 RUN         apt-get update -y \
          && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 python3-dev python3-setuptools python3-pip wget \
-         && pip3 install mcdreforged hjson docker requests pycryptodome colorlog googletrans==4.0.0rc1 \
          && useradd -d /home/container -m container
 
 USER        root
