@@ -1,14 +1,14 @@
 #!/bin/bash
 
-#Prints sh info stuff
+# Prints sh info stuff
 echo Executing xnorm-mcdr-sh
 echo Author: legendnightt
 echo Vendor: xnormnet
-echo Version: 1.1.0
+echo Version: 1.1.1
 echo Website: https://xnorm.cloud
 echo Repository: https://github.com/xnormnet/docker-images
 
-#Set directory
+# Set directory
 cd /home/container
 
 # Install or Update python libraries
