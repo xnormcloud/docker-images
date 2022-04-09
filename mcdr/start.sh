@@ -4,7 +4,7 @@
 echo Executing xnorm-mcdr-sh
 echo Author: legendnightt
 echo Vendor: xnormnet
-echo Version: 1.0.3
+echo Version: 1.1.0
 echo Website: https://xnorm.cloud
 echo Repository: https://github.com/xnormnet/docker-images
 
