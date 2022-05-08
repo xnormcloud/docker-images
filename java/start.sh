@@ -4,7 +4,7 @@
 echo Executing xnorm-java-sh
 echo Author: skuzow
 echo Vendor: xnormnet
-echo Version: 1.0.0
+echo Version: 1.0.1
 echo Website: https://xnorm.cloud
 echo Repository: https://github.com/xnormnet/docker-images
 

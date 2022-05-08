@@ -1,6 +1,6 @@
 FROM        openjdk:8-slim
 
-LABEL       author="skuzow" vendor="xnormnet" version="1.0.0"
+LABEL       author="skuzow" vendor="xnormnet" version="1.0.1"
 
 RUN         apt-get update -y \
          && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 wget \
@@ -16,7 +16,7 @@ USER        container
 ENV         USER=container HOME=/home/container
 
 WORKDIR     /home
-RUN         echo sh v1.0.0 \
+RUN         echo sh v1.0.1 \
          && if [[ -e start.sh ]] ; then rm start.sh ; else wget https://raw.githubusercontent.com/xnormnet/docker-images/master/java/start.sh ; fi
 
 CMD         ["/bin/bash", "/home/start.sh"]
