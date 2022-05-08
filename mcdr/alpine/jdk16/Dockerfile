@@ -1,6 +1,6 @@
 FROM        openjdk:16-jdk-alpine
 
-LABEL       author="skuzow" vendor="xnormnet" version="1.1.1"
+LABEL       author="skuzow" vendor="xnormnet" version="1.1.2"
 
 RUN         apk update \
          && apk upgrade --available && sync \
@@ -18,7 +18,7 @@ USER        container
 ENV         USER=container HOME=/home/container
 
 WORKDIR     /home
-RUN         echo sh v1.1.1 \
+RUN         echo sh v1.1.2 \
          && if [[ -e start.sh ]] ; then rm start.sh ; else wget https://raw.githubusercontent.com/xnormnet/docker-images/master/mcdr/start.sh ; fi
 
 CMD         ["/bin/bash", "/home/start.sh"]
