@@ -11,40 +11,40 @@ docker pull image-url
 
 [![build java slim](https://github.com/xnormnet/docker-images/actions/workflows/java_slim.yml/badge.svg?branch=master)](https://github.com/xnormnet/docker-images/actions/workflows/java_slim.yml)
 
-- [jdk 17](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk17) \
+- [jdk 17](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk17/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:java_slim_jdk17`
-- [jdk 16](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk16) \
+- [jdk 16](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk16/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:java_slim_jdk16`
-- [jdk 11](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk11) \
+- [jdk 11](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk11/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:java_slim_jdk11`
-- [jdk 8](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk8) \
+- [jdk 8](https://github.com/xnormnet/docker-images/tree/master/java/slim/jdk8/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:java_slim_jdk8`
 
 ## MCDR Slim
 
 [![build mcdr slim](https://github.com/xnormnet/docker-images/actions/workflows/mcdr_slim.yml/badge.svg?branch=master)](https://github.com/xnormnet/docker-images/actions/workflows/mcdr_slim.yml)
 
-- [jdk 17](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk17) \
+- [jdk 17](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk17/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:mcdr_slim_jdk17`
-- [jdk 16](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk16) \
+- [jdk 16](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk16/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:mcdr_slim_jdk16`
-- [jdk 11](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk11) \
+- [jdk 11](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk11/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:mcdr_slim_jdk11`
-- [jdk 8](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk8) \
+- [jdk 8](https://github.com/xnormnet/docker-images/tree/master/mcdr/slim/jdk8/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:mcdr_slim_jdk8`
 
 ## MCDR Alpine
 
 [![build mcdr alpine](https://github.com/xnormnet/docker-images/actions/workflows/mcdr_alpine.yml/badge.svg?branch=master)](https://github.com/xnormnet/docker-images/actions/workflows/mcdr_alpine.yml)
 
-- [jdk 16](https://github.com/xnormnet/docker-images/tree/master/mcdr/alpine/jdk16) \
+- [jdk 16](https://github.com/xnormnet/docker-images/tree/master/mcdr/alpine/jdk16/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:mcdr_alpine_jdk16`
-- [jdk 8](https://github.com/xnormnet/docker-images/tree/master/mcdr/alpine/jdk8) \
+- [jdk 8](https://github.com/xnormnet/docker-images/tree/master/mcdr/alpine/jdk8/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:mcdr_alpine_jdk8`
 
 ## Python Slim
 
 [![build python slim](https://github.com/xnormnet/docker-images/actions/workflows/python_slim.yml/badge.svg?branch=master)](https://github.com/xnormnet/docker-images/actions/workflows/python_slim.yml)
 
-- [python v3.9](https://github.com/xnormnet/docker-images/tree/master/python/slim/v39) \
+- [python v3.9](https://github.com/xnormnet/docker-images/tree/master/python/slim/v39/Dockerfile) \
 `ghcr.io/xnormnet/docker-images:python_slim_v39`
