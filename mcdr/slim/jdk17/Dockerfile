@@ -1,22 +1,23 @@
-FROM        openjdk:17-slim
+FROM openjdk:17-slim
 
-LABEL       author="skuzow" vendor="xnormcloud" version="2.0.0"
+LABEL author="skuzow" vendor="xnormcloud" version="2.0.0"
 
-RUN         apt-get update -y \
-         && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 python3-dev python3-setuptools python3-pip wget \
-         && useradd -d /home/container -m container
+RUN apt-get update -y \
+    && apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 python3-dev python3-setuptools python3-pip wget \
+    && useradd -d /home/container -m container
 
-USER        root
-RUN         chown -R container:container /home \
-         && chmod 777 -R  /home \
-         && chown -R container:container /home/container \
-         && chmod 777 -R  /home/container
+USER root
+RUN chown -R container:container /home \
+    && chmod 777 -R /home \
+    && chown -R container:container /home/container \
+    && chmod 777 -R /home/container
 
-USER        container
-ENV         USER=container HOME=/home/container
+USER container
+ENV USER=container HOME=/home/container
 
-WORKDIR     /home
-RUN         echo sh v1.1.2 \
-         && if [[ -e start.sh ]] ; then rm start.sh ; else wget https://raw.githubusercontent.com/xnormcloud/docker-images/master/mcdr/start.sh ; fi
+WORKDIR /home
+RUN echo sh v1.1.2 \
+    && if [[ -e start.sh ]]; then rm start.sh; else wget https://raw.githubusercontent.com/xnormcloud/docker-images/master/mcdr/start.sh; fi \
+    && if [[ ! -e requirements.txt ]]; then wget https://raw.githubusercontent.com/xnormcloud/eggs-config/master/mcdr/requirements.txt -O requirements.txt; fi
 
-CMD         ["/bin/bash", "/home/start.sh"]
+CMD ["/bin/bash", "/home/start.sh"]
