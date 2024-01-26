@@ -38,4 +38,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/xnormnet/docker-images:python_slim_${{ matrix.tag }}
+            ghcr.io/xnormcloud/docker-images:python_slim_${{ matrix.tag }}
