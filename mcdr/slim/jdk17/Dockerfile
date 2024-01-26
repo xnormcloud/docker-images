@@ -18,6 +18,6 @@ ENV USER=container HOME=/home/container
 WORKDIR /home
 RUN echo sh v1.1.2 \
     && if [[ -e start.sh ]]; then rm start.sh; else wget https://raw.githubusercontent.com/xnormcloud/docker-images/master/mcdr/start.sh; fi \
-    && if [[ ! -e requirements.txt ]]; then wget https://raw.githubusercontent.com/xnormcloud/eggs-config/master/mcdr/requirements.txt -O requirements.txt; fi
+    && if [[ ! -e /home/container/requirements.txt ]]; then wget https://raw.githubusercontent.com/xnormcloud/eggs-config/master/mcdr/requirements.txt -O /home/container/requirements.txt; fi
 
 CMD ["/bin/bash", "/home/start.sh"]
