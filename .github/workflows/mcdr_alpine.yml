@@ -39,4 +39,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/xnormnet/docker-images:mcdr_alpine_${{ matrix.tag }}
+            ghcr.io/xnormcloud/docker-images:mcdr_alpine_${{ matrix.tag }}
